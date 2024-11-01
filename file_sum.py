@@ -20,6 +20,6 @@ def file_sum(filename):
             output_file.write(f"{total}\n")
 
     except FileNotFoundError:
-        print(f"File {filename} not found.")
+        print(f"File '{filename}' not found.")
     except ValueError:
-        print("One or more lines int the file could not be converted to a number.")
+        print("One or more lines in the file could not be converted to a number.")
